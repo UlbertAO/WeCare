@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/panic_button" />
+
+            <ImageView
+                android:id="@+id/ivImage2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/voice" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PANIC BUTTON\nOR\nVOICE COMMAND"
+            android:textAlignment="center"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="You can click on the panic button or give voice command HELP to send a sms containing your last known location and your audio to all of your emergency contacts ."
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

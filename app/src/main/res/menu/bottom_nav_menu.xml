@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/bottom_dashboard"
+        android:icon="@drawable/ic_baseline_audiotrack_24"
+        android:title="Audio" />
+
+    <item
+        android:id="@+id/bottom_notifications"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Coordinates" />
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_profile" />
+
+</menu>
